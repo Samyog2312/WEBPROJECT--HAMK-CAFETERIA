@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <title>HAMK CAFETERIA</title>
+    
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+	
+		<!--Samyog header start-->
+		
+<div class="row  header">
+            <div class="col-sm-12">
+                <nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark"> 
+                
+                    <ul class="dot" >
+					
+                        <li> <a class="nav-link logo" href="home.html"><img src="Mypost.png" width="90" height="55" alt="logo"></a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+                        <ul class="navbar-nav mr-auto about">
+
+                            <li class="nav-item active">
+                                <a class="nav-link abt" href="aboutus.html">ABOUT</a>
+                                <span class="sr-only">(current)</span>
+                            </li>
+
+                            <li class="nav-item active contact">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right icon">
+                            <li> <a class="nav-link facebook " href="https://www.facebook.com/"><img src="iconmonstr-facebook-1-72.png" height="25" width="25" alt="facebook icon"></a>
+                            </li>
+
+                            <li> <a class="nav-link call" href="tel:5554280940"><img src="iconmonstr-phone-1-72.png" height="25" width="25" alt="call icon"></a>
+                            </li>
+
+                            <li> <a class="nav-link instagram" href="https://www.instagram.com/"><img src="iconmonstr-instagram-11-72.png" height="25" width="25" alt="instagram icon icon"></a>
+                            </li>
+
+                            <li> <a class="nav-link gmail" href="https://www.gmail.com/"><img src="iconmonstr-email-2-72.png" height="25" width="25" alt="Email icon"></a>
+                            </li>
+							<div <a class="dark" <button onclick="myFunction()">LIGHTS OUT</button> </a></div> 
+
+                        </ul>
+							
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+						
+                    </div>
+										
+        <
+                </nav>
+            </div>
+        </div>
+		<!-- Samyog header end-->
+
+
+
+
+<div class="row">
+<h4> If you have any questions or concerns, you can contact us using the form below. </h4>
+
+	<div class="col-sm-6"> 
+	<form action="print.php" method="post">
+	
+	Name:<br>
+	<input type="text" name="firstname" required><br>
+	Email:<br>
+	<textarea type="text" name="Email Address" rows="1" cols="30" required></textarea><br>
+	Message:<br>
+	<textarea type="text" name="message" rows="10" cols="50" required></textarea><br><br>
+	<output name="message"> </output>
+<button type="button" onclick="alert('Message sent')">Submit</button>
+</form>
+</div>
+
+<div class="col-sm-6 map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5474.789089709697!2d24.47606093962816!3d60.97819406254668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfi!4v1579593713336!5m2!1sen!2sfi" width="600" height="300" style="border:0;"  allowfullscreen=""></iframe>
+</div>
+</div>
+
+<!-- footer start -->
+
+<div class="row footer">
+				<div class="col-md-3 f-nav">
+					<img src="Mypost.png" class="f-logo" alt="logo">
+					<p>PO Box 230 13101</p>
+					<p>Hämeenlinna</p>
+					<p>03 6461</p>
+					<p>HAMK@HAMK.FI</p>
+
+				</div>
+				<div class="col-md-3 f-nav">
+					<a class="footer-link" href="home.html"><p>HOME</p></a>
+					<a class="footer-link" href="aboutus.html"><p>ABOUT</p></a>
+					<a class="footer-link" href="contact.html"><p>CONTACT</p></a>
+					<a class="footer-link" href="home.html"><p>CATALOGUE</p></a>
+				</div>
+				<div class="col-md-3">
+					<h3>Find us >></h3>
+			
+				</div>
+				<div class="col-md-3">
+					<h3></h3>
+					<!-- Trigger the Modal -->
+						<img id="myImg" src="img_snow.jpg" alt="We are located in block D" style="width:100%;max-width:300px">
+
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+
+						  <!-- The Close Button -->
+						  <span class="close">&times;</span>
+
+						  <!-- Modal Content (The Image) -->
+						  <img class="modal-content" id="img01">
+
+						  <!-- Modal Caption (Image Text) -->
+						  <div id="caption"></div>
+						</div>
+						<script>
+						// Get the modal
+						var modal = document.getElementById("myModal");
+
+						// Get the image and insert it inside the modal - use its "alt" text as a caption
+						var img = document.getElementById("myImg");
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img.onclick = function(){
+						  modal.style.display = "block";
+						  modalImg.src = this.src;
+						  captionText.innerHTML = this.alt;
+						}
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function() { 
+						  modal.style.display = "none";
+						}
+						</script>
+						<script>
+			function myFunction() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+			}
+</script>
+				</div>
+	</div>
+</body>
+
+
+<html>
+
